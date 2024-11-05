@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 // Set the base URL for the API
-const API_URL = 'http://localhost:8089/api/course';
+const API_URL = 'http://192.168.33.10:8089/api/course';
 
 const CourseManager = () => {
     const [courses, setCourses] = useState([]);
